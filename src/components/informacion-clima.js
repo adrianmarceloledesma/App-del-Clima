@@ -15,7 +15,7 @@ function InfoClima (props){
             </div>
             <div className="info">
                 {
-                    props.peticion &&
+                    props.temperatura &&
                         <div>
                             <p>Localización: {props.ciudad}, {props.pais}</p>
                             <p>Tiempo: {props.descripcion}</p>

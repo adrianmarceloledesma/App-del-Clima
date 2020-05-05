@@ -11,7 +11,8 @@ class App extends React.Component {
      velocidadViento:'',
      ciudad:'',
      pais:'',
-     error:null
+     error:null,
+    
    }
    
   // la palabra 'async' va de la mano con la otra palabra 'await'
@@ -29,7 +30,7 @@ class App extends React.Component {
      
     if(cityValue && countryValue){
           // tipiamos la direccion
-       const ApiURL = `http://api.openweathermap.org/data/2.5/weather?q=${cityValue},${countryValue}
+       const ApiURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityValue},${countryValue}
        &appid=aa3cf694d765215e8c80b0b312c7f7e3&units=metric`;
 
          // ejecutar una peticion, el navegador tiene una API llamada 'fetch()' que se encarga de esto
@@ -48,7 +49,6 @@ class App extends React.Component {
           velocidadViento:datos.wind.speed,
           ciudad:datos.name,
           pais:datos.sys.country,
-          peticion:true,
           error:null
        
        });
