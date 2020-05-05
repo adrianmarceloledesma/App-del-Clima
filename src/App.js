@@ -30,7 +30,7 @@ class App extends React.Component {
      
     if(cityValue && countryValue){
           // tipiamos la direccion
-       const ApiURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityValue},${countryValue}
+       const ApiURL = `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${cityValue},${countryValue}
        &appid=aa3cf694d765215e8c80b0b312c7f7e3&units=metric`;
 
          // ejecutar una peticion, el navegador tiene una API llamada 'fetch()' que se encarga de esto
