@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/App-del-Clima/static/css/main.bda9238b.chunk.css",
+    "main.css": "/App-del-Clima/static/css/main.f0deb206.chunk.css",
     "main.js": "/App-del-Clima/static/js/main.5929b6dd.chunk.js",
     "main.js.map": "/App-del-Clima/static/js/main.5929b6dd.chunk.js.map",
     "runtime-main.js": "/App-del-Clima/static/js/runtime-main.dfc117bd.js",
@@ -8,15 +8,15 @@
     "static/js/2.bd669a8c.chunk.js": "/App-del-Clima/static/js/2.bd669a8c.chunk.js",
     "static/js/2.bd669a8c.chunk.js.map": "/App-del-Clima/static/js/2.bd669a8c.chunk.js.map",
     "index.html": "/App-del-Clima/index.html",
-    "precache-manifest.ed140e5ae915febc333241980ac5f6e4.js": "/App-del-Clima/precache-manifest.ed140e5ae915febc333241980ac5f6e4.js",
+    "precache-manifest.db80829d3015b9c994b78260a94f30fd.js": "/App-del-Clima/precache-manifest.db80829d3015b9c994b78260a94f30fd.js",
     "service-worker.js": "/App-del-Clima/service-worker.js",
-    "static/css/main.bda9238b.chunk.css.map": "/App-del-Clima/static/css/main.bda9238b.chunk.css.map",
+    "static/css/main.f0deb206.chunk.css.map": "/App-del-Clima/static/css/main.f0deb206.chunk.css.map",
     "static/js/2.bd669a8c.chunk.js.LICENSE.txt": "/App-del-Clima/static/js/2.bd669a8c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dfc117bd.js",
     "static/js/2.bd669a8c.chunk.js",
-    "static/css/main.bda9238b.chunk.css",
+    "static/css/main.f0deb206.chunk.css",
     "static/js/main.5929b6dd.chunk.js"
   ]
 }
